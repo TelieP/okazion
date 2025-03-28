@@ -16,50 +16,40 @@
     <div class="container">
         <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
             <div class="col-md-3 mb-2 mb-md-0">
-                <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
-                    <img width="89" src="images/logo.png" alt="okazion">
+                <a href="../assets/index.php" class="d-inline-flex link-body-emphasis text-decoration-none">
+                    <img width="89" src="../assets/images/logo.png" alt="okazion">
                 </a>
             </div>
 
             <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="#" class="nav-link px-2 link-secondary">
+                <li>
+                    <a href="../assets/index.php" class="nav-link px-2 link-secondary">
                         <font style="vertical-align: inherit;">
-                            <font style="vertical-align: inherit;">Maison</font>
+                            <font style="vertical-align: inherit;">Accueil</font>
                         </font>
-                    </a></li>
-                <li><a href="#" class="nav-link px-2">
+                    </a>
+                </li>
+                <li>
+                    <a href="../templates/annonces.php" class="nav-link px-2">
                         <font style="vertical-align: inherit;">
-                            <font style="vertical-align: inherit;">Caractéristiques</font>
+                            <font style="vertical-align: inherit;">Annonces</font>
                         </font>
-                    </a></li>
-                <li><a href="#" class="nav-link px-2">
-                        <font style="vertical-align: inherit;">
-                            <font style="vertical-align: inherit;">Tarifs</font>
-                        </font>
-                    </a></li>
-                <li><a href="#" class="nav-link px-2">
-                        <font style="vertical-align: inherit;">
-                            <font style="vertical-align: inherit;">FAQ</font>
-                        </font>
-                    </a></li>
-                <li><a href="#" class="nav-link px-2">
-                        <font style="vertical-align: inherit;">
-                            <font style="vertical-align: inherit;">À propos</font>
-                        </font>
-                    </a></li>
+                    </a>
+                </li>
+
             </ul>
 
             <div class="col-md-3 text-end">
-                <button type="button" class="btn btn-outline-primary me-2">
+                <a class="btn btn-outline-primary me-2" href="../templates/login.php">
                     <font style="vertical-align: inherit;">
-                        <font style="vertical-align: inherit;">Se connecter</font>
+                        <font style="vertical-align: inherit;">Connexion</font>
                     </font>
-                </button>
-                <button type="button" class="btn btn-primary">
+                </a>
+                <a class="btn btn-primary" href="../templates/inscription.php">
                     <font style="vertical-align: inherit;">
-                        <font style="vertical-align: inherit;">S'inscrire</font>
+                        <font style="vertical-align: inherit;">Inscription</font>
                     </font>
-                </button>
+                </a>
             </div>
         </header>
 

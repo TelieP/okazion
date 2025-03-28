@@ -3,6 +3,7 @@
 ?>
 
 <?php
+require_once '../libs/pdo.php'; // on inclut le fichier pdo.php
 require_once '../libs/listing.php';
 $listings = getlistings();
 
@@ -12,9 +13,6 @@ $categories = [
     ["name" => "Electromenagers", "icon" => "lamp"],
     ["name" => "Vehicules", "icon" => "controller"],
 ];
-
-
-
 
 ?>
 <main>
@@ -60,7 +58,7 @@ $categories = [
         </div>
         <div class="row text-center">
             <h2> Les dernieres annonces</h2>
-            <?php foreach ($listings as $listing) {
+            <?php foreach ($listings as $key => $listing) {
                 require '../templates/listing_part.php';
             }
             ?>

@@ -57,10 +57,10 @@ CREATE TABLE `categorie` (
 --
 
 CREATE TABLE `utilisateur` (
+  `username` varchar(50) DEFAULT NULL
   `Id_utilisateur` int(11) NOT NULL,
   `email` varchar(50) DEFAULT NULL,
-  `mot_de_passe` varchar(256) DEFAULT NULL,
-  `pseudo` varchar(50) DEFAULT NULL
+  `password` varchar(256) DEFAULT NULL,
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
